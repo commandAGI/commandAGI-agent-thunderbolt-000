@@ -1,8 +1,11 @@
 class ThunderboltAgent {
     constructor() {}
 
+    messages: Array<string>
+
     sendScreenshot(screenshot: Screenshot) {
         // use VLM to generate message to append to the perception context
+        
         // also generate OCR record of the screenshot and append to the perception context
     }
 
